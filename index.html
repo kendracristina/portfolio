@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./assets/perfil.png">
+
+ 
+
+    <title>Meu Portfólio</title>
+</head>
+
+<body>
+    
+    <header class="cabecalho">
+        
+        <h1 class="cabecalho__titulo">Kendra Cristina</h1>
+        <nav class="navegacao">
+            <ul class="navegacao__lista">
+                <li class="navegacao__elemento"><a href="#sobre-mim">Sobre mim</a></li>
+                <li class="navegacao__elemento"><a href="#habilidades">Habilidades</a></li>
+                <li class="navegacao__elemento"><a href="#formacao">Formação</a></li>
+                <li class="navegacao__elemento"><a href="#projetos">Projetos</a></li>
+                <li class="navegacao__elemento"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="apresentacao">
+        <img class="apresentacao__foto" src="assets/perfil.png" alt="Foto de perfil">
+        <div class="apresentacao__conteiner">
+            <h2 class="apresentacao__titulo">Olá! Me chamo Kendra</h2>
+            <p class="apresentacao__subtitulo">Futura desenvolvedora front-end, apaixonada por música e em constante descoberta no mundo da programação. </p>
+            
+            <ul class="redes">
+                <li class="redes__elemento"><a href="https://github.com/kendracristina"><img src="assets/github.png" width="40px" alt="Logo github"></a></li>
+                <li class="redes__elemento"><a href="https://linkedin.com/in/kendra-cristina"><img src="assets/linkedin.png" width="50px" alt="Logo linkedin"></a></li>
+                <li class="redes__elemento"><a href="https://open.spotify.com/playlist/0h5QkT9P5WuXik2Cl0USzJ?si=56a986c2bbec4edb"><img src="assets/spotify.png" width="50px" alt="Logo spotify"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <section class="sobre-mim" id="sobre-mim">
+        <h2 class="sobre-mim__titulo">Sobre mim</h2>
+        <p class="sobre-mim__texto">Olá! Sou Kendra Cristina, estudante de Análise e Desenvolvimento de Sistemas na UniCesumar e participante do projeto Oracle ONE na Alura. Estou em constante busca por aprimorar meus conhecimentos na área e aplicar minhas habilidades em projetos práticos.</p>
+        <p class="sobre-mim__texto">Nas horas vagas, sou apaixonada por música meus artistas preferidos incluem BTS e Justin Bieber, que inspiram  minha criatividade. Também adoro filmes e séries, e jogos de RPG on-line. Às vezes, exploro trabalhos manuais como forma de relaxar e expressar minha criatividade.</p>
+        <p class="sobre-mim__texto">A tecnologia entrou na minha vida como uma maneira de trocar de carreira e, assim, espero não apenas transformar meu futuro, mas também impactar positivamente a sociedade por meio da inovação.</p>
+        
+    </section>
+
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades__lista">
+            <li class="habilidades__elemento">
+                <img class="habilidades__icone" src="assets/html.png" alt="HTML">
+                <p class="habilidades__nome">HTML 5</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icone" src="assets/js.png" alt="JavaScript">
+                <p class="habilidades__nome">JavaScript</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icone" src="assets/css.png" alt="CSS">
+                <p class="habilidades__nome">CSS</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icone" src="assets/postgresql.png" alt="CSS">
+                <p class="habilidades__nome">PostgreSQL</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção de Formação Acadêmica -->
+    <section class="formacao" id="formacao">
+        <h2 class="formacao__titulo">Formação Acadêmica</h2>
+        <ul class="formacao__lista">
+            <li class="formacao__elemento">
+                <img class="formacao__icone" src="assets/chapeu.png" alt="chapeu">
+                <div>
+                    <h3 class="formacao__nome">Análise e Desenvolvimento de Sistemas</h3>
+                    <p class="formacao__detalhe">Em andamento - UniCesumar</p>
+                </div>
+            </li>
+            <li class="formacao__elemento">
+                <img class="formacao__icone" src="assets/alura.png" alt="certificado">
+                <div>
+                    <h3 class="formacao__nome">Especialização Front-end</h3>
+                    <p class="formacao__detalhe">Em andamento - Alura</p>
+                </div>
+            </li>
+            <li class="formacao__elemento">
+                <img class="formacao__icone" src="assets/certificado.png" alt="formanda">
+                <div>
+                    <h3 class="formacao__nome">Fundamento de T.I: Hardware e Software</h3>
+                    <p class="formacao__detalhe">2024 - Fundação Bradesco</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção de Projetos -->
+    <section class="projetos" id="projetos">
+        <h2 class="projetos__titulo">Projetos</h2>
+        <div class="projetos__conteiner">
+            <div class="projeto">
+                <h3 class="projetos__nome">Calculadora de churrasco</h3>
+                <img class="projeto__imagem" src="assets/churrasco.png" alt="calculadora de churrasco">
+                <p class="projetos__descricao">Projeto criado como finalização de matéria para o curso de Análise e Desenvolvimento de Sistemas.</p>
+                <div class="botao__container">
+                <button  id="botaoDemoCalculadora" class="botoes">Demo</button>
+                <button id="botaoRepositorioCalculadora" class="botoes">Repositório</button>
+                </div>
+            </div>
+            <div class="projeto">
+                <h3 class="projetos__nome">Decodificador de texto</h3>
+                <img class="projeto__imagem" src="assets/decodificador.png" alt="decodificador de texto">
+                <p class="projetos__descricao">Software desenvolvido como parte do challenge Alura.</p>
+                <div class="botao__container">
+                <button id="botaoDemoDecodificador" class="botoes">Demo</button>
+                <button id="botaoRepositorioDecodificador" class="botoes">Repositório</button>
+                </div>
+            </div>
+            <div class="projeto">
+                <h3 class="projetos__nome">Jogo do número secreto</h3>
+                <img class="projeto__imagem" src="assets/secreto.png" alt="jogo do número secreto">
+                <p class="projetos__descricao">Projeto desenvolvido como parte do curso de inicialização em programação da Alura.</p>
+                <div class="botao__container">
+                <button  id="botaoDemoSecreto" class="botoes">Demo</button>
+                <button id="botaoRepositorioSecreto" class="botoes">Repositório</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contato" id="contato">
+        <div class="contato__container"> 
+            <img class="contato__imagem" src="assets/contato.png" alt="contato">
+        <div class="contato__conteudo">
+            <h2 class="contato__titulo">Contato</h2>
+            <p class="contato__texto">Ficou interessado? Entre em contato comigo!</p>
+         <form class="contato__formulario">
+            <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+            <input class="contato__campo" type="text" id="text" placeholder="Nome" required>
+            <input class="contato__campo" type="email" id="email" placeholder="E-mail" required>
+            <input class="contato__campo" type="text" id="assunto" placeholder="Assunto" required>
+            <textarea class="contato__campo--textarea" id="textarea" placeholder="Mensagem" required></textarea>
+            <button class="contato__botao" type="submit">Enviar</button>
+        </form>
+        </div>
+        </div>
+    </section>
+
+    <footer class = "footer">
+        <div class="footer__content">
+            <p>Desenvolvido por Kendra Cristina</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

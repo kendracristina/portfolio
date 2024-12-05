@@ -1,0 +1,509 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaisei+Decol&display=swap');
+
+
+
+
+:root {
+    --cor-de-fundo: #F2BDC7;
+    --cor-de-fundo-menu: #F2A7C3;
+    --cor-do-link: #593C4C;
+    --cor-titulo: #593C4C;
+    --cor-botao: #F280B6
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: "Kaisei Decol", sans-serif;
+    margin: 0;
+    box-sizing: content-box;
+    line-height: 1.6;
+}
+
+ol, ul, li {
+    list-style-type: none;
+    display: inherit;
+   
+}
+
+a {
+    text-decoration:solid;
+    color: var(--cor-do-link);
+    font-weight:600;
+
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:0;
+    background-color: var(--cor-de-fundo-menu);
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    max-width: 1920px; 
+}
+
+.cabecalho__titulo {
+    font-size: 1.2px;
+    font-family:"Bebas Neue";
+    gap: 32px;
+    line-height: 1.17em;
+    color: var(--cor-titulo);
+    text-align: center;
+    padding: 0;
+}
+
+.navegacao__lista {
+    display: none;
+    gap: 32px;
+    width: 642px;
+    height: 19px;
+}
+
+.navegacao__elemento a {
+    font-size: 0.6rem;
+}
+
+.apresentacao{
+    
+    align-items:center;
+    text-align:center;
+    padding: 0;
+    flex-direction: column;
+    justify-content:center;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 152px;
+    margin-right: 152px;
+    vertical-align:top;
+    display: flex;
+}
+.apresentacao__foto {
+    width: 368px;
+    height: 368px;
+    border-radius: 80%;
+    max-width: 80%;
+    
+    
+    
+}
+ .apresentacao__conteiner {
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+    display:inline;
+    margin: 50px;
+    align-items: center;
+
+    
+}
+.apresentacao__titulo {
+    font-family: "Bebas Neue";
+    font-size: 3.25rem;
+    color: var(--cor-do-link);
+    line-height: 3.816rem;
+    text-align: center;
+
+}
+.apresentacao__subtitulo {
+    font-family: "Kaisei Decol" sans-serif;
+    width: 46.938rem;
+    height: 3.25;
+    color:var(--cor-do-link);
+    text-align: center;
+    font-size: 22px;
+    line-height: 25.83px;
+    font-weight: 400;
+}
+.redes__elemento {
+    gap: 40px;
+    display: inline;
+    
+}
+
+.sobre-mim {
+    background-color: var(--cor-de-fundo-menu);
+    padding: 64px;
+    gap: 10px;
+    color: var(--cor-do-link);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sobre-mim__titulo {
+    width: 166px;
+    height: 38px;
+    gap: 16px;
+    font-family: "Bebas Neue";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    
+}
+.sobre-mim__texto {
+    width: 751px;
+    height: 133px;
+    font-family: "Kaisei Decol" sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    
+
+}
+
+
+.habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px;
+    
+
+    
+}   
+.habilidades__titulo {
+    width: 82px;
+    height: 38px;
+    font-family: "Bebas Neue";
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--cor-do-link);
+    line-height: 37.57px;
+    margin-bottom: 20px;
+} 
+.habilidades__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.habilidades__elemento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Kaisei Decol" sans-serif;
+    color: var(--cor-titulo);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+    width: 176px;
+    height: 174px;
+    gap: 8px;
+    background-color: var(--cor-de-fundo-menu);
+    border: 3px solid #F279BC;
+    box-shadow: 0px 4px 8px #F280B6;
+    padding: 10px;
+    border-radius: 30px;
+}
+.habilidades__icone {
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+}
+.formacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 82px;
+    gap: 32px;
+    background-color: var(--cor-de-fundo-menu);
+}
+.formacao__titulo {
+    width: 82px;
+    height: 38px;
+    font-family: "Bebas Neue";
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--cor-do-link);
+    line-height: 37.57px;
+    margin-bottom: 20px;
+
+}
+.formacao__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+.formacao__elemento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Kaisei Decol" sans-serif;
+    color: var(--cor-titulo);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18.78px;
+    width: 200px;
+    height: 190px;
+    gap: 15px;
+    background-color: var(--cor-de-fundo-menu);
+    border: 3px solid #F279BC;
+    box-shadow: 0px 4px 8px #F280B6;
+    padding: 10px;
+    border-radius: 30px;
+}
+.formacao__icone {
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+
+}
+.formacao__nome {
+    font-family: "Kaisei Decol" sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: auto;
+}
+.formacao__detalhe {
+    font-family: "Kaisei Decol" sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: auto;
+}
+.projetos__conteiner {
+    max-width: 1136px;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around; 
+    margin: 0 auto;
+}
+.projeto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin:10px;
+} 
+.projetos__titulo {
+    font-family: "Bebas Neue";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    color: var(--cor-titulo);
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+} 
+.projetos__nome {
+    font-family: "Bebas Neue";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    color: var(--cor-titulo);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.projeto__imagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    /* justify-content:  center; */
+} 
+.projetos__descricao {
+    width: 348px;
+    height: 19px;
+    font-family: "Kaisei Decol" sans-serif;
+    font-weight: 700;
+    color: var(--cor-do-link);
+    margin-bottom: 60px;
+
+}
+.botao__container {
+    width: auto;
+    height: 51px;
+    gap: 10px;
+    display:flex;
+    justify-content: center;
+    padding: 0px;
+    
+    
+}
+.botoes {
+    width: 120px;
+    border-radius: 10px;
+    background-color:  var(--cor-botao);
+    color:var(--cor-do-link);
+    font-family: "Kaisei Decol", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 18.78px;
+    cursor: pointer;
+    border: 3px solid #F279BC;
+    box-shadow: 0px 4px 8px #F280B6;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.botoes:hover {
+    background-color: #F2BDC7;
+    transform: scale(1.05);
+}
+.contato {
+    padding: 64px;
+    gap: 16px; 
+    background-color: var(--cor-de-fundo-menu);
+}
+.contato__container {
+    display: flex;
+    align-items: center;
+    padding: 64px;
+    gap: 32px;
+    /* flex-wrap: wrap; */
+}
+.contato__titulo {
+    font-family: "Bebas Neue";
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--cor-titulo);
+    line-height: 37.57px;
+    text-align:center;
+    margin-bottom: 16px;
+
+}
+.contato__imagem {
+    max-width: 500px;
+    height: auto;
+    
+}
+.contato__texto {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Kaisei Decol" sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 18.78px;
+    color: var(--cor-titulo);
+
+
+}
+.contato__conteudo {
+    width: 650px;
+    text-align: left;
+    
+
+}
+.contato__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.contato__campo {
+    padding: 13px;
+    border: 3px solid #F279BC;
+    box-shadow: 0px 4px 8px #F280B6;
+    border-radius: 10px;
+    background-color: #f2bdc7f3;
+    box-sizing: border-box;
+    word-break: break-word;
+    outline: none;
+    
+
+}
+.contato__campo--textarea {
+   
+    height: 133px;
+    padding: 13px;
+    border: 3px solid #F279BC;
+    box-shadow: 0px 4px 8px #F280B6;
+    border-radius: 10px;
+    background-color: #f2bdc7f3;
+    box-sizing: border-box;
+    resize: none;
+
+}
+.contato__botao {
+    width: 165px;
+    height: 51px;
+    gap: 10px;
+    
+    border-radius: 10px;
+    background-color:  var(--cor-botao);
+    color:var(--cor-do-link);
+    font-family: "Kaisei Decol", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 18.78px;
+    cursor: pointer;
+    border: 3px solid #F279BC;
+    box-shadow: 0px 4px 8px #F280B6;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+
+}
+.botoes:hover {
+    background-color: #F2BDC7;
+    transform: scale(1.05);
+}
+.footer {
+    width: fixed;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__content {
+    width: auto;
+    height: 38px;
+    font-family: "Kaisei Decol" sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: var(--cor-titulo);
+    line-height: 18.78px;
+    font-size: 17px;
+}
+
+/* ------------------------------ Responsividade ---------------------------------------*/
+
+/* Tablets e telas maiores */
+@media (min-width: 768px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecalho__logo {
+        max-width: 100px;
+    }
+
+    .cabecalho__titulo {
+        font-size: 1.5rem;
+    }
+
+    .navegacao__lista {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .navegacao__elemento a {
+        font-size: 1rem;
+    }
+}
+
+/* Telas grandes */
+@media (min-width: 1024px) {
+    /* Aqui você pode ajustar ainda mais o design para telas grandes */
+    .cabecalho__titulo {
+        font-size: 1.8rem;
+    }
+
+    .navegacao__elemento a {
+        font-size: 1.1rem;
+    }
+}
